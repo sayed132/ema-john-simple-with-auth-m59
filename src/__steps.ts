@@ -24,3 +24,22 @@ AUTH SETUP
     8. 
 
 */
+
+/* 
+HOSTING FIREBASE
+--------------------------------
+
+    //one time each computer
+    1. npm install -g firebase-tools
+    2. firebase login
+
+    //for each project one time
+    3.firebase init
+    make sure for : for public directory : you select build 
+    single page application: y/n --> y
+
+    //for every deploy
+    4. npm run build
+    5. firebase deploy
+
+*/
